@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "border-radius"
   ],
   "css-border-radius": {
     "type": "git",
