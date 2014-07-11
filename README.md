@@ -28,7 +28,7 @@ or download the css on github and include in your project.
   .br-circ { border-radius: 9999px; }
   .br-100 {  border-radius: 100%; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .brn-ns {     border-radius: 0; }
   .br-ns {      border-radius: .125rem; }
   .br2-ns {     border-radius: .25rem; }
@@ -39,7 +39,7 @@ or download the css on github and include in your project.
   .br-100-ns {  border-radius: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .brn-m {     border-radius: 0; }
   .br-m {      border-radius: .125rem; }
   .br2-m {     border-radius: .25rem; }
@@ -50,7 +50,7 @@ or download the css on github and include in your project.
   .br-100-m {  border-radius: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .brn-l {     border-radius: 0; }
   .br-l {      border-radius: .125rem; }
   .br2-l {     border-radius: .25rem; }
