@@ -12,14 +12,14 @@
   .br-100 {  border-radius: 100%; }
 
 @media screen and (min-width: 48em) {
-  .brn-ns {     border-radius: 0; }
-  .br-ns {      border-radius: .125rem; }
-  .br2-ns {     border-radius: .25rem; }
-  .br3-ns {     border-radius: .5rem; }
-  .br4-ns {     border-radius: 1rem; }
-  .br5-ns {     border-radius: 2rem; }
-  .br-circ-ns { border-radius: 9999px; }
-  .br-100-ns {  border-radius: 100%; }
+  .brn-s {     border-radius: 0; }
+  .br-s {      border-radius: .125rem; }
+  .br2-s {     border-radius: .25rem; }
+  .br3-s {     border-radius: .5rem; }
+  .br4-s {     border-radius: 1rem; }
+  .br5-s {     border-radius: 2rem; }
+  .br-circ-s { border-radius: 9999px; }
+  .br-100-s {  border-radius: 100%; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
