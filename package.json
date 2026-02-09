@@ -1,38 +1,44 @@
 {
   "name": "css-border-radius",
-  "style": "border-radius.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-border-radius",
-  "description": "Css module of single purpose classes for border radius",
+  "version": "2.0.0",
+  "description": "Functional CSS for border-radius",
+  "style": "dist/border-radius.css",
+  "main": "dist/border-radius.css",
+  "exports": {
+    ".": "./dist/border-radius.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "border-radius"
+    "border-radius",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-border-radius": {
+  "homepage": "https://github.com/mrmrs/css-border-radius",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-border-radius.git"
+    "url": "https://github.com/mrmrs/css-border-radius.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-border-radius/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-border-radius/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
