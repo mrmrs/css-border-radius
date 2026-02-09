@@ -11,7 +11,7 @@
   .br-circ { border-radius: 9999px; }
   .br-100 {  border-radius: 100%; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .brn-s {     border-radius: 0; }
   .br-s {      border-radius: .125rem; }
   .br2-s {     border-radius: .25rem; }
@@ -22,7 +22,7 @@
   .br-100-s {  border-radius: 100%; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .brn-m {     border-radius: 0; }
   .br-m {      border-radius: .125rem; }
   .br2-m {     border-radius: .25rem; }
@@ -33,7 +33,7 @@
   .br-100-m {  border-radius: 100%; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .brn-l {     border-radius: 0; }
   .br-l {      border-radius: .125rem; }
   .br2-l {     border-radius: .25rem; }
